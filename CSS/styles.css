@@ -31,6 +31,12 @@ header{
     background-color: var(--Light-blue);
 }
 
+footer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 main{
     padding: 240px 10px 10px 10px;
 }
@@ -102,3 +108,32 @@ nav a:hover{
 }
 
 
+/*Homepage styling*/
+.banner-img{
+    width:100%;
+    height:249px
+}
+
+.potrait{
+    width:285px;
+    height: 284px;
+}
+.landscape{
+    width:328px;
+    height:216px
+}
+
+/*Button styling*/
+.Button{
+    border:none;
+    background-color: var(--Black);
+    font-size: 15px;
+    font-weight: bold;
+    padding: 12px 15px;
+    border-radius: 20px;
+}
+
+.Button:hover{
+    background-color: var(--Red);
+    cursor: pointer;
+}
