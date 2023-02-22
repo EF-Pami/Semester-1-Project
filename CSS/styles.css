@@ -101,7 +101,7 @@ nav a:hover{
 }
 
 /*footer styling*/
-.basement{
+footer{
     margin-top: auto;
     background-color: var(--Light-blue);
 }
