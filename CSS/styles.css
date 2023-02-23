@@ -1,14 +1,14 @@
 
 /*Varaible styling*/
 :root{
-    --light-green: rgb#80E584;
-    --Light-blue: rgb#36A8CC;
-    --light-purple: rgb#F9B1FF;
-    --purple: rgb#BB77EB;
-    --Pink: rgb#F582FF;
-    --Blue: rgb#1B31FF;
-    --Red: rgb#FB0E0E;
-    --Black: #000000;
+    --lightgreen: #80E584;
+    --lightblue: #36A8CC;
+    --lightpurple: #F9B1FF;
+    --purple:#BB77EB;
+    --pink: #F582FF;
+    --blue: #1B31FF;
+    --red: #FB0E0E;
+    --black: #000000;
 
 }
 
@@ -25,10 +25,11 @@ html, body {
 }
 
 header{
-    padding: 10px;
+    padding: 50px;
     position: fixed;
     width: 100%;
-    background-color: var(--Light-blue);
+    border: 1px solid var(--lightblue);
+    background-color: var(--lightblue);
 }
 
 
@@ -93,17 +94,17 @@ nav li {
 }
 
 nav a{
-    color: var(--Black);
+    color: var(--black);
     text-decoration: none;
 }
 nav a:hover{
-    color: var(--Red);
+    color: var(--red);
 }
 
 /*footer styling*/
 footer{
     margin-top: auto;
-    background-color: var(--Light-blue);
+    background-color: var(--lightblue);
 }
 .footer-content{
     font-display: flex;
@@ -133,10 +134,37 @@ footer{
     height:216px
 }
 
+/*Explore page styling*/
+.kids{
+    background-color: var(--lightpurple);
+    margin: 20px 0px 20px 0px;
+}
+
+.teachers{
+    background-color: var(--lightgreen);
+    margin: 20px 0px 20px 0px;
+}
+
+.researchers{
+    background-color: var(--purple);
+    margin: 20px 0px 20px 0px;
+}
+
+/*Exhibition page styling*/
+.cosmology{
+    width: auto;
+    padding: 10px;
+    margin: 0px;
+    border: 2px solid var(--purple);
+    background-color: var(--purple);
+}   
+
+
+
 /*Button styling*/
 .Button{
     border:none;
-    background-color: var(--Black);
+    background-color: var(--black);
     font-size: 15px;
     font-weight: bold;
     padding: 12px 15px;
@@ -144,6 +172,6 @@ footer{
 }
 
 .Button:hover{
-    background-color: var(--Red);
+    background-color: var(--red);
     cursor: pointer;
 }
