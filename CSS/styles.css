@@ -9,7 +9,9 @@
     --blue: #1B31FF;
     --red: #FB0E0E;
     --black: #000000;
-
+    --arch: #D9D9D9;
+    --grey: #F8F8F8;
+    --thingreen: #BBEA97;
 }
 
 /*General styling*/
@@ -51,27 +53,39 @@ body{
 
 h1{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bold;
 
 }
 
 h2{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold; 
 }
 h3{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
+    font-size: 18px;
     font-weight: bold;
 }
 
 /*Nav styling*/
 
+#logo{
+    display: flex;
+    flex-direction: column;
+    left: 10px;
+    width: 242px;
+    height: 58px;
+    padding-left: 0px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
 #sidebar-menu {
     position: absolute;
     top: 40px;
+    right: 10px;
 }
 
 .main-nav, #hamburger-input {
@@ -80,10 +94,11 @@ h3{
 
 #hamburger-input:checked + .main-nav {
     display: block;
+    
 }
 
 .main-nav {
-    background-color: var(--purple);
+    background-color: var(--thingreen);
     padding: 10px;
 }
 
@@ -101,22 +116,7 @@ nav a:hover{
     color: var(--red);
 }
 
-/*footer styling*/
-footer{
-    margin-top: auto;
-    background-color: var(--lightblue);
-}
-.footer-content{
-    font-display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    font-size: 8px;
-    padding: 5px 0px;
-}
-.footer-head{
-    font-size: 12px;
-    font-weight: bold;
-}
+
 
 
 /*Homepage styling*/
@@ -130,7 +130,7 @@ footer{
     height: 284px;
 }
 .landscape{
-    width:328px;
+    width:300px;
     height:216px
 }
 
@@ -138,27 +138,138 @@ footer{
 .kids{
     background-color: var(--lightpurple);
     margin: 20px 0px 20px 0px;
+    padding: 10px;
+    border: 2px;
 }
 
 .teachers{
     background-color: var(--lightgreen);
     margin: 20px 0px 20px 0px;
+    padding: 10px;
+    border: 2px;
 }
 
 .researchers{
     background-color: var(--purple);
     margin: 20px 0px 20px 0px;
+    padding: 10px;
+    border: 2px;
 }
 
 /*Exhibition page styling*/
 .cosmology{
-    width: auto;
     padding: 10px;
     margin: 0px;
-    border: 2px solid var(--purple);
-    background-color: var(--purple);
-}   
+    border: 6px solid var(--purple);
+    margin: 20px 0px 20px 0px;
+}
+.evo{
+    padding: 10px;
+    margin: 0px;
+    border: 6px solid var(--pink);
+    margin: 20px 0px 20px 0px;
+}
+.bio{
+    padding: 10px;
+    margin: 0px;
+    border: 6px solid var(--purple);
+    margin: 20px 0px 20px 0px;
+}  
 
+
+.rob{
+    padding: 10px;
+    margin: 0px;
+    border: 6px solid var(--blue);
+    margin: 20px 0px 20px 0px;
+}
+.eco{
+    padding: 10px;
+    margin: 0px;
+    border: 6px solid var(--pink);
+    margin: 20px 0px 20px 0px;
+}
+
+/*Events page styling*/
+.professor{
+    padding: 10px;
+    border: 6px solid var(--purple);
+    margin: 20px 0px 20px 0px;
+}
+
+.night{
+    padding: 10px;
+    border: 6px solid var(--blue);
+    margin: 20px 0px 20px 0px;
+}
+
+.energetica{
+    padding: 10px;
+    border: 6px solid var(--pink);
+    margin: 20px 0px 20px 0px;
+}
+
+/*About page styling*/
+.about p{
+    margin: 20px 0px 20px 0px;
+}
+
+/*Vist and contact page styling*/
+.visits p{
+    margin: 15px 0px 15px 0px;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    gap: 10px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+}
+textarea {
+    width: 250px;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid var(--arch);
+    border-radius: 10px;
+    background-color: var(--grey);
+    font-size: 16px;
+    resize: none;
+    
+  }
+  input[type=text] {
+    width: 250px;
+    padding: 10px 10px;
+    margin: 6px 0;
+    border-radius: 10px;
+    border: 2px solid var(--arch);
+    box-sizing: border-box;
+  }
+
+  input[type=number] {
+    width: 250px;
+    padding: 10px 10px;
+    margin: 6px 0;
+    border-radius: 10px;
+    border: 2px solid var(--arch);
+    box-sizing: border-box;
+  }
+  input[type=submit]{
+    width: 139px;
+    border: none;
+    background-color: var(--lightgreen);
+    font-size: 15px;
+    font-weight: bold;
+    padding: 12px 15px;
+    border-radius: 20px;
+  }
+  .contact-box{
+    padding: 10px;
+    border: 6px solid var(--purple);
+  }
 
 
 /*Button styling*/
@@ -174,4 +285,97 @@ footer{
 .Button:hover{
     background-color: var(--red);
     cursor: pointer;
+}
+
+/*footer styling*/
+footer{
+    display: flex;
+    flex-direction: row;
+}
+
+footer{
+    margin-top: auto;
+    background-color: var(--lightblue);
+    
+}
+.footer-content{
+    font-display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 8px;
+    padding: 5px 0px;
+}
+.footer-head{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+@media(min-width:900px){
+    #logo{
+        width: 242px;
+        height: 58px;
+        left: 53px;
+        top: 70px;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    #logo{
+        width: 20%;
+    }
+
+    header{
+        display: flex;
+        background-color: var(--lightblue);
+    }
+
+    #sidebar-menu{
+        position: relative;
+        width: 80%;
+        top: 0;
+    }
+
+    ul li{
+        width: 100px;
+    }
+
+    .main-nav{
+        display: flex;
+        height: 100%;
+        justify-content: flex-end;
+        gap: 2em;
+        align-items: center;
+        width: 100%;
+        background-color: transparent;
+        list-style: none;
+    }
+
+    #hamburger-menu{
+        display: none;
+    }
+
+    .banner-img{
+        width:100%;
+        height:446px
+    }
+
+    .potrait{
+        width:295px;
+        height: 300px;
+    }
+    .landscape{
+        width:500px;
+        height:250px
+    }
+
+    .welcome-container{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .kids{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-columns: 1fr 1fr;
+    }
+
 }
