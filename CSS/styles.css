@@ -357,6 +357,9 @@ footer{
         display: flex;
         background-color: var(--lightblue);
     }
+    main{
+        width: auto;
+    }
 
     #sidebar-menu{
         position: relative;
