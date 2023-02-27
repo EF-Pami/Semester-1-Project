@@ -107,7 +107,12 @@ h3{
 nav li {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
+    list-style-type: none;
     font-weight: bold;
+}
+li a.active{
+    background-color: var(--purple);
+    color: var(--white);
 }
 
 nav a{
@@ -293,6 +298,7 @@ textarea {
     border-radius: 20px;
     margin-right: 3vw;
     margin-top: 15px;
+    margin-bottom: 25px;
 }
 
 .button:hover{
@@ -361,12 +367,16 @@ footer{
 
     #sidebar-menu{
         position: relative;
-        width: 80%;
+        width: 85%;
         top: 0;
     }
 
     ul li{
         width: 100px;
+    }
+    li a.active{
+        background-color: var(--purple);
+        color: var(--white);
     }
 
     .main-nav{
@@ -397,7 +407,7 @@ footer{
         font-weight: 700;
         font-size: 24px;
         line-height: 29px;
-        color: #090000;
+        color: var(--black);
         padding-left: 1vw;
     }
         
