@@ -1,10 +1,9 @@
-
 /*Varaible styling*/
-:root{
+:root {
     --lightgreen: #80E584;
     --lightblue: #36A8CC;
     --lightpurple: #F9B1FF;
-    --purple:#BB77EB;
+    --purple: #BB77EB;
     --pink: #F582FF;
     --blue: #1B31FF;
     --red: #FB0E0E;
@@ -23,11 +22,12 @@
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     width: 100%;
 }
 
-header{
+header {
     padding: 50px;
     position: fixed;
     width: 100%;
@@ -37,22 +37,22 @@ header{
 
 
 
-main{
+main {
     padding: 140px 10px 10px 10px;
 }
 
-body{
+body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
 
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h1{
+h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
     font-weight: bold;
@@ -60,12 +60,13 @@ h1{
 
 }
 
-h2{
+h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    font-weight: bold; 
+    font-weight: bold;
 }
-h3{
+
+h3 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     font-weight: bold;
@@ -73,7 +74,7 @@ h3{
 
 /*Nav styling*/
 
-#logo{
+#logo {
     display: flex;
     flex-direction: column;
     left: 10px;
@@ -90,13 +91,14 @@ h3{
     right: 10px;
 }
 
-.main-nav, #hamburger-input {
+.main-nav,
+#hamburger-input {
     display: none;
 }
 
-#hamburger-input:checked + .main-nav {
+#hamburger-input:checked+.main-nav {
     display: block;
-    
+
 }
 
 .main-nav {
@@ -110,16 +112,18 @@ nav li {
     list-style-type: none;
     font-weight: bold;
 }
-li a.active{
+
+nav li a.active {
     background-color: var(--purple);
     color: var(--white);
 }
 
-nav a{
+nav a {
     color: var(--black);
     text-decoration: none;
 }
-nav a:hover{
+
+nav a:hover {
     color: var(--red);
 }
 
@@ -127,37 +131,38 @@ nav a:hover{
 
 
 /*Homepage styling*/
-.banner-img{
-    width:100%;
-    height:249px;
+.banner-img {
+    width: 100%;
+    height: 249px;
     object-fit: cover;
 }
 
-.potrait{
-    width:285px;
+.potrait {
+    width: 285px;
     height: 284px;
 }
-.landscape{
-    width:300px;
-    height:216px
+
+.landscape {
+    width: 300px;
+    height: 216px
 }
 
 /*Explore page styling*/
-.kids{
+.kids {
     background-color: var(--lightpurple);
     margin: 20px 0px 20px 0px;
     padding: 10px;
     border: 2px;
 }
 
-.teachers{
+.teachers {
     background-color: var(--lightgreen);
     margin: 20px 0px 20px 0px;
     padding: 10px;
     border: 2px;
 }
 
-.researchers{
+.researchers {
     background-color: var(--purple);
     margin: 20px 0px 20px 0px;
     padding: 10px;
@@ -165,33 +170,36 @@ nav a:hover{
 }
 
 /*Exhibition page styling*/
-.cos{
+.cos {
     padding: 10px;
     margin: 0px;
     border: 6px solid var(--purple);
     margin: 20px 0px 20px 0px;
 }
-.evo{
+
+.evo {
     padding: 10px;
     margin: 0px;
     border: 6px solid var(--pink);
     margin: 20px 0px 20px 0px;
 }
-.bio{
+
+.bio {
     padding: 10px;
     margin: 0px;
     border: 6px solid var(--purple);
     margin: 20px 0px 20px 0px;
-}  
+}
 
 
-.rob{
+.rob {
     padding: 10px;
     margin: 0px;
     border: 6px solid var(--blue);
     margin: 20px 0px 20px 0px;
 }
-.eco{
+
+.eco {
     padding: 10px;
     margin: 0px;
     border: 6px solid var(--pink);
@@ -199,43 +207,46 @@ nav a:hover{
 }
 
 /*Events page styling*/
-.professor{
+.professor {
     padding: 10px;
     border: 6px solid var(--purple);
     margin: 20px 0px 20px 0px;
 }
 
-.night{
+.night {
     padding: 10px;
     border: 6px solid var(--blue);
     margin: 20px 0px 20px 0px;
 }
 
-.energetica{
+.energetica {
     padding: 10px;
     border: 6px solid var(--pink);
     margin: 20px 0px 20px 0px;
 }
 
 /*About page styling*/
-.about p{
+.about p {
     margin: 20px 0px 20px 0px;
 }
 
 /*Vist and contact page styling*/
-.visits p{
+.visits p {
     margin: 15px 0px 15px 0px;
 }
-.contact-form{
+
+.contact-form {
     display: flex;
     flex-direction: column;
     max-width: 500px;
     gap: 10px;
 }
-.input{
+
+.input {
     display: flex;
     flex-direction: column;
 }
+
 textarea {
     width: 250px;
     height: 150px;
@@ -246,26 +257,28 @@ textarea {
     background-color: var(--grey);
     font-size: 16px;
     resize: none;
-    
-  }
-  input[type=text] {
-    width: 250px;
-    padding: 10px 10px;
-    margin: 6px 0;
-    border-radius: 10px;
-    border: 2px solid var(--arch);
-    box-sizing: border-box;
-  }
 
-  input[type=number] {
+}
+
+input[type=text] {
     width: 250px;
     padding: 10px 10px;
     margin: 6px 0;
     border-radius: 10px;
     border: 2px solid var(--arch);
     box-sizing: border-box;
-  }
-  input[type=submit]{
+}
+
+input[type=number] {
+    width: 250px;
+    padding: 10px 10px;
+    margin: 6px 0;
+    border-radius: 10px;
+    border: 2px solid var(--arch);
+    box-sizing: border-box;
+}
+
+input[type=submit] {
     width: 139px;
     border: none;
     background-color: var(--lightgreen);
@@ -273,15 +286,16 @@ textarea {
     font-weight: bold;
     padding: 12px 15px;
     border-radius: 20px;
-  }
-  .contact-box{
+}
+
+.contact-box {
     padding: 10px;
     border: 6px solid var(--purple);
-  }
+}
 
 
 /*Button styling*/
-.button{
+.button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -301,10 +315,11 @@ textarea {
     margin-bottom: 25px;
 }
 
-.button:hover{
+.button:hover {
     background-color: var(--red);
     cursor: pointer;
 }
+
 .explorelink {
     display: flex;
     justify-content: center;
@@ -323,31 +338,32 @@ textarea {
     margin-right: 3vw;
     margin-top: 15px;
 }
-.explorelink:hover{
+
+.explorelink:hover {
     background-color: var(--red);
     cursor: pointer;
 }
 
 /*footer styling*/
-footer{
+footer {
     display: flex;
     flex-direction: row;
 }
 
-footer{
+footer {
     margin-top: auto;
     background-color: var(--lightblue);
-    
+
 }
 
 
-.footer-head{
+.footer-head {
     font-size: 12px;
     font-weight: bold;
 }
 
-@media(min-width:900px){
-    #logo{
+@media(min-width:900px) {
+    #logo {
         width: 242px;
         height: 58px;
         left: 53px;
@@ -355,31 +371,33 @@ footer{
         font-size: 24px;
         font-weight: bold;
     }
-    #logo{
+
+    #logo {
         width: 15%;
     }
 
-    header{
+    header {
         display: flex;
         background-color: var(--lightblue);
     }
-    
 
-    #sidebar-menu{
+
+    #sidebar-menu {
         position: relative;
         width: 85%;
         top: 0;
     }
 
-    ul li{
+    ul li {
         width: 100px;
     }
-    li a.active{
+
+    li a.active {
         background-color: var(--purple);
         color: var(--white);
     }
 
-    .main-nav{
+    .main-nav {
         display: flex;
         height: 100%;
         justify-content: flex-end;
@@ -390,17 +408,18 @@ footer{
         list-style: none;
     }
 
-    #hamburger-menu{
+    #hamburger-menu {
         display: none;
     }
+
     .discoverexplore {
         display: flex;
         justify-content: space-between;
         align-items: center;
         width: 100%;
     }
-    
-        
+
+
     .discoverh1 {
         font-family: 'Inter';
         font-style: normal;
@@ -410,65 +429,66 @@ footer{
         color: var(--black);
         padding-left: 1vw;
     }
-        
+
     .museum1 {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          padding-left: 2vw;
-    }
-        
-    .museum2 {
-          padding-right: 2vw;
-    }
-        
-    .museum1and2 {
-          display: flex;
-          justify-content: space-between;
-    }
-    
-    .exploit-container{
-        display: flex;
-        flex-direction: row;
-    }
-
-    .potrait{
-        width:295px;
-        height: 300px;
-    }
-    .landscape{
-        width:500px;
-        height:250px
-    }
-
-    .textdesc{
         display: flex;
         flex-direction: column;
         align-items: center;
         padding-left: 2vw;
     }
-      
-    .contentimg{
+
+    .museum2 {
         padding-right: 2vw;
     }
-    
 
-    .info-containers{
+    .museum1and2 {
         display: flex;
         justify-content: space-between;
     }
 
-    .getinvo{
+    .exploit-container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .potrait {
+        width: 295px;
+        height: 300px;
+    }
+
+    .landscape {
+        width: 500px;
+        height: 250px
+    }
+
+    .textdesc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 2vw;
+    }
+
+    .contentimg {
+        padding-right: 2vw;
+    }
+
+
+    .info-containers {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .getinvo {
         display: flex;
         align-items: center;
     }
 
-   
 
 
 
-    
 
-    
+
+
+
 
 }
