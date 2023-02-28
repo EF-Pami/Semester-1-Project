@@ -89,6 +89,7 @@ h3 {
     position: absolute;
     top: 40px;
     right: 10px;
+    text-align: right;
 }
 
 .main-nav,
@@ -98,6 +99,7 @@ h3 {
 
 #hamburger-input:checked+.main-nav {
     display: block;
+    text-align: left;
 
 }
 
