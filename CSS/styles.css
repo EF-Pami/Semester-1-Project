@@ -113,7 +113,7 @@ nav li {
     font-weight: bold;
 }
 
-nav li a.active {
+nav a.active {
     background-color: var(--purple);
     color: var(--white);
 }
@@ -345,9 +345,9 @@ input[type=submit] {
 }
 
 /*footer styling*/
-footer {
+.footer-flexbox {
     display: flex;
-    flex-direction: row;
+    justify-content: space-around;
 }
 
 footer {
