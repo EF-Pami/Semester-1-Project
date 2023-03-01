@@ -45,12 +45,9 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-}
-
-
-body {
     font-family: Arial, Helvetica, sans-serif;
 }
+
 
 h1 {
     font-family: Arial, Helvetica, sans-serif;
