@@ -243,6 +243,9 @@ nav a:hover {
     max-width: 500px;
     gap: 10px;
 }
+.irrelevant{
+    visibility: hidden;
+}
 
 .input {
     display: flex;
@@ -286,6 +289,8 @@ input[type=submit] {
 .contact-box {
     padding: 10px;
     border: 6px solid var(--purple);
+    justify-items: center;
+    padding-left: 30px;
 }
 
 
