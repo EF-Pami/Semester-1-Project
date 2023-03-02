@@ -420,23 +420,35 @@ footer {
     #hamburger-menu {
         display: none;
     }
-
-    .discoverexplore {
+    .discoverexplore{
         display: flex;
+        flex-direction: column;
+    }
+    .banner-img{
+        margin-top: 50px;
+        height: 446px;
+    }
+    .main-text{
+        display: flex;
+        flex-direction: row;
         justify-content: space-between;
         align-items: center;
         width: 100%;
+        margin-top: 5px;
+        margin-bottom: 20px;
     }
 
-
     .discoverh1 {
-        font-family: 'Inter';
         font-style: normal;
         font-weight: 700;
         font-size: 24px;
         line-height: 29px;
         color: var(--black);
-        padding-left: 1vw;
+        word-break: break-all;
+        word-wrap: break-word;
+        white-space: pre-line;
+        justify-content: left;
+        margin-left: 20px;
     }
 
     .museum1 {
@@ -447,17 +459,27 @@ footer {
     }
 
     .museum2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         padding-right: 2vw;
+    }
+    .museum2 img{
+        margin-top: 15px;
     }
 
     .museum1and2 {
         display: flex;
         justify-content: space-between;
+        align-items: center;
+        width: 100%;
     }
 
     .exploit-container {
         display: flex;
         flex-direction: row;
+        margin-top: 30px;
+        justify-content: space-between;
     }
 
     .potrait {
