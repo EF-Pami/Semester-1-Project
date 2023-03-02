@@ -358,11 +358,13 @@ input[type=submit] {
     display: flex;
     justify-content: space-around;
 }
+.footer-flexbox a{
+    color: var(--black);
+}
 
 footer {
     margin-top: auto;
     background-color: var(--lightblue);
-
 }
 
 
