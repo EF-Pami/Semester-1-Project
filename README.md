@@ -17,6 +17,6 @@ This project consisted of different pages which includes the following:
 - CSS
 
 ## Contact
-[My Twitter page] (https://x.com/ItsjoelLeo?t=SxQr4ygxIR8jrr8o7D68yQ&s=03)
+[My Twitter page](https://x.com/ItsjoelLeo?t=SxQr4ygxIR8jrr8o7D68yQ&s=03)
 
-[My LinkedIn page] (https://www.linkedin.com/in/ef-ll-pami-pami-04576624b)
+[My LinkedIn page](https://www.linkedin.com/in/ef-ll-pami-pami-04576624b)
